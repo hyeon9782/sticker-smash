@@ -30,14 +30,40 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="about"
+        name="camera"
         options={{
-          title: "About",
+          title: "Camera",
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons
+              name={focused ? "camera" : "camera-outline"}
+              color={color}
+              size={24}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="webview"
+        options={{
+          title: "Webview",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
               name={
                 focused ? "information-circle" : "information-circle-outline"
               }
+              color={color}
+              size={24}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="map"
+        options={{
+          title: "Map",
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons
+              name={focused ? "map" : "map-outline"}
               color={color}
               size={24}
             />

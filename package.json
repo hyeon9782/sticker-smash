@@ -44,8 +44,10 @@
     "react-native-screens": "~4.1.0",
     "react-native-view-shot": "4.0.2",
     "react-native-web": "~0.19.13",
-    "react-native-webview": "13.12.4",
-    "expo-camera": "~16.0.7"
+    "react-native-webview": "13.12.2",
+    "expo-camera": "~16.0.7",
+    "expo-audio": "~0.2.4",
+    "react-native-maps": "1.18.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
